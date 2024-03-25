@@ -1,6 +1,6 @@
 const searchFormEl =document.querySelector('.search')
 
-searchFormEl.search.addEventListenar("input",()=>{
+searchFormEl.search.addEventListener("input",()=>{
     const searchValue =searchFormEl.search.value.toLowerCase()
     const cardsItem =document.querySelectorAll('.cards__item')
     const cardsTitles =document.querySelectorAll('.cards__title')
